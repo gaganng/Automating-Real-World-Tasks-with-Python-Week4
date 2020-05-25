@@ -1,5 +1,5 @@
 #By Gagan Gundala
-#Meant for Learning Purpose.I do not using it for Coursera Submission.
+#Meant for Learning Purpose.I do not recommend using it for Coursera Submission.
 #This code is in-efficient and not written with correct programming practices
 #But it works!!!!
 #!/usr/bin/env python3
