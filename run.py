@@ -35,7 +35,6 @@ def uplo_details():
 
     #Sending data to API
     for i in fruit:
-        print(i['image_name'])
         resp=requests.post(url,data=i)
 
 uplo_details()
