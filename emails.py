@@ -17,7 +17,7 @@ def generate_email(sender, recipient, subject, body, attachment_path=False):
     message["Subject"]=subject
     message.set_content(body)
 
-    #Checks if attachment is to sent with email message
+    #Checks if attachment is to be sent with email message
     if attachment_path:
         attachment_filename=os.path.basename(attachment_path)
         mime_type, _ = mimetypes.guess_type(attachment_path)
