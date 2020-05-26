@@ -8,7 +8,8 @@ from reportlab.platypus import SimpleDocTemplate
 from reportlab.platypus import Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 
-#Generates PDF report with whatever name and location given in filename
+#Generates PDF report with whatever name given in filename
+#Will save pdf in current working directory if full path not provided in filename
 def generate_report(filename, title, additional_info):
     styles=getSampleStyleSheet()
     report=SimpleDocTemplate(filename)
