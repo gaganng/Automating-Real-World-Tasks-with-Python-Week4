@@ -18,7 +18,7 @@ def gen_para():
     for file_name in files_names:
         with open('supplier-data/descriptions/'+file_name) as f:
             file_text=f.readlines()
-            para=para+'name: '+file_text[0].strip()+'<br/>'+'weight: '+file_text[1].strip()+$
+            para=para+'name: '+file_text[0].strip()+'<br/>'+'weight: '+file_text[1].strip()+'<br/>'
     return para
 
 if __name__ == "__main__":
